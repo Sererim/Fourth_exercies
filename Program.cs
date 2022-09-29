@@ -2,10 +2,6 @@
 
 int Main()
 {
-
-    
-    ;
-    
     string key = "0";
     string foo = "1";
     int x = 0, y = 0;
@@ -16,8 +12,8 @@ int Main()
         "Enter 3 to make an array of 8 elements.\n" +
         "Enter 0 to terminate the program."
         );
+        
         key = Console.ReadLine();
-
 
         switch(key)
         {
